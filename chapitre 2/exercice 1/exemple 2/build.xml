@@ -1,0 +1,12 @@
+<project>
+    <target name="compile">
+        <javac srcdir="." includes="Hello.java"/>
+    </target>
+    <target name="run" depends="compile">
+        <java classname="Hello" classpath="."/>
+    </target>
+    <target name="doc">
+        <mkdir dir="doc"/>
+        <javadoc sourcefiles="Hello.java" destdir="doc"/>
+    </target>
+</project>
