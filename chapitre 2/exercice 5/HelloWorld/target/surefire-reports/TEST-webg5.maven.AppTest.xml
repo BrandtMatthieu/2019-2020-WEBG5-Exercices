@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="webg5.maven.AppTest" time="0.047" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\matth\Documents\Ecole\Q5\WEBG5\Exercices\chapitre 2\exercice 5\HelloWorld\target\test-classes;C:\Users\matth\Documents\Ecole\Q5\WEBG5\Exercices\chapitre 2\exercice 5\HelloWorld\target\classes;C:\Users\matth\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\matth\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Programs\JVMS\store\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\matth\AppData\Local\Temp\surefire5613382776915988327\surefirebooter7063773410037594456.jar C:\Users\matth\AppData\Local\Temp\surefire5613382776915988327 2020-10-05T17-48-49_411-jvmRun1 surefire7943753466638067557tmp surefire_0867567967615178248tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\matth\Documents\Ecole\Q5\WEBG5\Exercices\chapitre 2\exercice 5\HelloWorld\target\test-classes;C:\Users\matth\Documents\Ecole\Q5\WEBG5\Exercices\chapitre 2\exercice 5\HelloWorld\target\classes;C:\Users\matth\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\matth\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\matth"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Programs\JVMS\store\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\matth\Documents\Ecole\Q5\WEBG5\Exercices\chapitre 2\exercice 5\HelloWorld"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\matth\AppData\Local\Temp\surefire5613382776915988327\surefirebooter7063773410037594456.jar"/>
+    <property name="sun.boot.class.path" value="D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\resources.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\rt.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\sunrsasign.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\jsse.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\jce.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\charsets.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\jfr.jar;D:\Programs\JVMS\store\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="matth"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\matth\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\matth\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\matth\Documents\Ecole\Q5\WEBG5\Exercices\chapitre 2\exercice 5\HelloWorld"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Programs\JVMS\store\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64;c:\program files (x86)\nvidia corporation\physx\common;c:\program files\go\bin;c:\program files\jdk;c:\program files\jdk\bin;c:\program files\mysql\mysql shell 8.0\bin\;c:\program files\nodejs;c:\program files\nvidia corporation\nsight compute 2019.4.0\;c:\program files\powershell\7\;c:\programdata\composersetup\bin;c:\users\matth\.windows-build-tools\python27\;c:\users\matth\appdata\local\microsoft\windowsapps;c:\users\matth\appdata\roaming\composer\vendor\bin;c:\users\matth\go\bin;c:\windows;c:\windows\system32;c:\windows\system32\openssh\;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;d:\program files (x86)\incredibuild;d:\programs\android\android-sdk\platform-tools;d:\programs\cmake\bin;d:\programs\codebl;d:\programs\codeblocks;d:\programs\codeblocks\mingw;d:\programs\codeblocks\mingw\bin;d:\programs\codeblocks\share;d:\programs\codeblocks\share\codeblocks;d:\programs\cuda\cudadevelopment\bin;d:\programs\cuda\cudadevelopment\libnvvp;d:\programs\git\cmd;d:\programs\jvms;d:\programs\microsoft visual studio\2019\msbuild\current\bin;d:\programs\microsoft vs code\bin;d:\programs\mingw\bin;d:\programs\netbeans-11.1\netbeans\java\maven\bin;d:\programs\nodejs;d:\programs\nvm;D:\Programs\php-7.3.22-nts-Win32-VC15-x64;d:\programs\python27;d:\programs\sonar-scanner-4.2.0.1873-windows\bin;d:\programs\sonarqube-8.0\bin\windows-x86-64;d:\programs\valgrind-3.14.0;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Programs\gradle-6.5.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Programs\Git\cmd;D:\Programs\NetBeans-11.1\netbeans\extide\ant\bin;D:\Programs\youtube-dl;C:\Users\matth\AppData\Local\Microsoft\WindowsApps;D:\Programs\Microsoft VS Code\bin;C:\Users\matth\.deno\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="D:\Programs\JVMS\store\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="webg5.maven.AppTest" time="0.002"/>
+</testsuite>
