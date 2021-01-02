@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" th:href="@{/css/base.css}">
+	<link rel="stylesheet" th:href="@{/css/courses.css}">
 	<title></title>
 </head>
 <body>
@@ -13,7 +14,23 @@
 		<h2>he2b / webg5 / mcd / 2020-2021</h2>
 	</header>
 	<main>
-		<div th:replace="${view} :: content"></div>
+		<h3>Liste des cours</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Sigle</th>
+					<th>Titre</th>
+					<th>ECTS</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="course : ${courses}">
+					<td th:text="${course.id}"></td>
+					<td th:text="${course.label}"></td>
+					<td th:text="${course.ects}"></td>
+				</tr>
+			</tbody>
+		</table>
 	</main>
 	<footer></footer>
 </body>
