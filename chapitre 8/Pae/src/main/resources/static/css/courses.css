@@ -35,7 +35,7 @@ main > table > tbody > tr:nth-of-type(even) {
 	background-color: #E9F2FB;
 }
 
-main > table > tbody > tr > td:nth-of-type(1) {
+main > table > tbody > tr > td:nth-of-type(1) > a {
 	font-family: monospace;
 	text-transform: uppercase;
 	font-size: 1.2em;
