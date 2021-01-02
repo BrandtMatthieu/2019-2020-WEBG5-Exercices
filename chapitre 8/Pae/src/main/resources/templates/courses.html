@@ -15,7 +15,7 @@
 	</header>
 	<main>
 		<h3>Liste des cours</h3>
-		<table>
+		<table th:unless="${courses.isEmpty()}">
 			<thead>
 				<tr>
 					<th>Sigle</th>
@@ -31,6 +31,7 @@
 				</tr>
 			</tbody>
 		</table>
+		<p th:if="${courses.isEmpty()}">Aucun cours</p>
 	</main>
 	<footer></footer>
 </body>
