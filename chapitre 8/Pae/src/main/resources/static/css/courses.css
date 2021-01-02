@@ -1,42 +1,48 @@
-main > h3 {
+main > section > h3 {
 	font-size: 2em;
 	margin: 0;
 	color: var(--accent);
 }
 
-main > table {
+main > section > table {
 	margin-top: 1em;
 	border-collapse: separate;
 	outline: 2px solid var(--accent);
 	outline-offset: 1px;
 }
 
-main > table > thead > tr > th {
+main > section > table > thead > tr > th {
 	min-width: 3em;
 	background-color: var(--accent);
 	color: white;
 	padding: 5px;
 }
 
-main > table > * > tr > td {
+main > section > table > * > tr > td {
 	text-align: center;
 }
 
-main > table > tbody > tr > td:nth-of-type(2) {
+main > section > table > tbody > tr > td:nth-of-type(2) {
 	text-align: left;
 }
 
 
-main > table > tbody > tr > td:not(:nth-of-type(1)) {
+main > section > table > tbody > tr > td:not(:nth-of-type(1)) {
 	font-weight: bold;
 }
 
-main > table > tbody > tr:nth-of-type(even) {
+main > section > table > tbody > tr:nth-of-type(even) {
 	background-color: #E9F2FB;
 }
 
-main > table > tbody > tr > td:nth-of-type(1) > a {
+main > section > table > tbody > tr > td:nth-of-type(1) > a {
 	font-family: monospace;
 	text-transform: uppercase;
 	font-size: 1.2em;
+}
+
+main > section > form > label {
+	font-weight: bold;
+	display: inline-block;
+	min-width: 4em;
 }

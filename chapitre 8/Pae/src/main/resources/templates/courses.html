@@ -14,26 +14,43 @@
 		<h2>he2b / webg5 / mcd / 2020-2021</h2>
 	</header>
 	<main>
-		<h3>Liste des cours</h3>
-		<table th:unless="${courses.isEmpty()}">
-			<thead>
-				<tr>
-					<th>Sigle</th>
-					<th>Titre</th>
-					<th>ECTS</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr th:each="course : ${courses}">
-					<td >
-						<a th:href="@{/courses/{courseId}/(courseId=${course.id})}" th:text="${course.id}"></a>
-					</td>
-					<td th:text="${course.label}"></td>
-					<td th:text="${course.ects}"></td>
-				</tr>
-			</tbody>
-		</table>
-		<p th:if="${courses.isEmpty()}">Aucun cours</p>
+		<section>
+			<h3>Liste des cours</h3>
+			<table th:unless="${courses.isEmpty()}">
+				<thead>
+					<tr>
+						<th>Sigle</th>
+						<th>Titre</th>
+						<th>ECTS</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="course : ${courses}">
+						<td >
+							<a th:href="@{/courses/{courseId}/(courseId=${course.id})}" th:text="${course.id}"></a>
+						</td>
+						<td th:text="${course.label}"></td>
+						<td th:text="${course.ects}"></td>
+					</tr>
+				</tbody>
+			</table>
+			<p th:if="${courses.isEmpty()}">Aucun cours</p>
+		</section>
+		<section>
+			<h3>Ajouter un cours</h3>
+			<form th:action="@{/courses}" th:object="${course}" method="POST">
+				<label for="id">Sigle</label>
+				<input name="id" type="text" th:field="*{id}" placeholder="Entrez le sigle du cours">
+				<br>
+				<label for="label">Titre</label>
+				<input name="label" type="text" th:field="*{label}" placeholder="Entrez le titre du cours">
+				<br>
+				<label for="ects">ECTS</label>
+				<input name="ects" type="number" th:field="*{ects}" placeholder="Entrez le nombre d'ECTS du cours'">
+				<br>
+				<input type="submit">
+			</form>
+		</section>
 	</main>
 	<footer></footer>
 </body>
