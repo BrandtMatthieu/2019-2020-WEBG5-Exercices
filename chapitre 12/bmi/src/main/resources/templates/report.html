@@ -1,0 +1,7 @@
+<samp id="samp" th:fragment="content">
+	Votre IMC = <output th:text="${bmi}" for="weight,length,gender"></output><br>
+	Votre corpulence = <output th:text="${corpulence}" for="weight,length,gender"></output>
+	<output for="gender" name="gender" class="error message" th:errors="*{gender}"></output>
+	<output for="length" name="length" class="error message" th:errors="*{length}"></output>
+	<output for="weight" name="weight" class="error message" th:errors="*{weight}"></output>
+</samp>
