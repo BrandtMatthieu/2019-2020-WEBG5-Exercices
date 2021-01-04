@@ -59,3 +59,24 @@ main > section > form > input[type=submit] {
 main > section > form > hr {
 	margin: 2px;
 }
+
+main > section > form > output {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+main > section > form > output.error.message {
+	background-color: var(--error);
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+main > section > form > input.error {
+	border-color: var(--error);
+}
+
+main > section > form > input.error:focus {
+	outline-color: var(--error);
+}

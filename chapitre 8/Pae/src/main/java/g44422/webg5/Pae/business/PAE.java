@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.Collection;
 
 import g44422.webg5.Pae.model.Course;
-import lombok.Value;
+import lombok.Data;
 import g44422.webg5.Pae.interfaces.IPAE;
 
-@Value
+@Data
 public class PAE implements IPAE {
 	public Collection<Course> getCourses() {
 		return Arrays.asList(
