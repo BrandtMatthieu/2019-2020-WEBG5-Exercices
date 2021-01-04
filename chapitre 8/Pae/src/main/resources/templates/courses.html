@@ -32,14 +32,14 @@
 				<h3>Ajouter un cours</h3>
 				<form th:action="@{/courses}" th:object="${course}" method="POST">
 					<label for="id">Sigle</label>
-					<input name="id" type="text" th:field="*{id}" placeholder="Entrez le sigle du cours">
-					<br>
+					<input name="id" type="text" th:field="*{id}" placeholder="Entrez le sigle du cours" required>
+					<hr>
 					<label for="label">Titre</label>
-					<input name="label" type="text" th:field="*{label}" placeholder="Entrez le titre du cours">
-					<br>
+					<input name="label" type="text" th:field="*{label}" placeholder="Entrez le titre du cours" required>
+					<hr>
 					<label for="ects">ECTS</label>
-					<input name="ects" type="number" th:field="*{ects}" placeholder="Entrez le nombre d'ECTS du cours'">
-					<br>
+					<input name="ects" type="number" th:field="*{ects}" placeholder="Entrez le nombre d'ECTS du cours'" min="1" step="1" required>
+					<hr>
 					<input type="submit">
 				</form>
 			</section>

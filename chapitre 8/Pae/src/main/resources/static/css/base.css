@@ -25,9 +25,9 @@ header > h1 {
 }
 
 header > img {
-	display: inline-block;
 	height: 50px;
 	vertical-align: top;
+	float: right;
 }
 
 header > h2 {

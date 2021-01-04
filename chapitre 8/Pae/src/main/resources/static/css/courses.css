@@ -1,14 +1,14 @@
 main > section > h3 {
 	font-size: 2em;
-	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 	color: var(--accent);
 }
 
 main > section > table {
-	margin-top: 1em;
 	border-collapse: separate;
 	outline: 2px solid var(--accent);
-	outline-offset: 1px;
+	padding: 2px;
 }
 
 main > section > table > thead > tr > th {
@@ -41,8 +41,21 @@ main > section > table > tbody > tr > td:nth-of-type(1) > a {
 	font-size: 1.2em;
 }
 
-main > section > form > label {
+main > section > form {
+	width: fit-content;
+	outline: solid 2px var(--accent);
+	padding: 5px;
+}
+
+main > section > form > label,
+main > section > form > input[type=submit] {
 	font-weight: bold;
 	display: inline-block;
 	min-width: 4em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+main > section > form > hr {
+	margin: 2px;
 }
