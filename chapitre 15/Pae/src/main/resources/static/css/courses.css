@@ -1,0 +1,82 @@
+main > section > h3 {
+	font-size: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: var(--accent);
+}
+
+main > section > table {
+	border-collapse: separate;
+	outline: 2px solid var(--accent);
+	padding: 2px;
+}
+
+main > section > table > thead > tr > th {
+	min-width: 3em;
+	background-color: var(--accent);
+	color: white;
+	padding: 5px;
+}
+
+main > section > table > * > tr > td {
+	text-align: center;
+}
+
+main > section > table > tbody > tr > td:nth-of-type(2) {
+	text-align: left;
+}
+
+
+main > section > table > tbody > tr > td:not(:nth-of-type(1)) {
+	font-weight: bold;
+}
+
+main > section > table > tbody > tr:nth-of-type(even) {
+	background-color: #E9F2FB;
+}
+
+main > section > table > tbody > tr > td:nth-of-type(1) > a {
+	font-family: monospace;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+main > section > form {
+	width: fit-content;
+	outline: solid 2px var(--accent);
+	padding: 5px;
+}
+
+main > section > form > label,
+main > section > form > input[type=submit] {
+	font-weight: bold;
+	display: inline-block;
+	min-width: 4em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+main > section > form > hr {
+	margin: 2px;
+}
+
+main > section > form > output {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+main > section > form > output.error.message {
+	background-color: var(--error);
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+main > section > form > input.error {
+	border-color: var(--error);
+}
+
+main > section > form > input.error:focus {
+	outline-color: var(--error);
+}

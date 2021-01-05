@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layouts/base.html}">
+	<head>
+		<link rel="stylesheet" th:href="@{/css/home.css}">
+	</head>
+	<body>
+		<main layout:fragment="main">
+			<section>
+				<p>Bienvenue <span th:text="${username}">Inconnu</span> sur le site de gestion du programme annuel des étudiants</p>
+			</section>
+		</main>
+	</body>
+</html>
