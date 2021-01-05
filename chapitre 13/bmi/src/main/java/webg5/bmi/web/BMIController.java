@@ -12,5 +12,10 @@ public class BMIController {
 	public String home() {
 		return "home";
 	}
+	
+	@GetMapping("/vue")
+	public String home_vue() {
+		return "home.vue";
+	}
 
 }
