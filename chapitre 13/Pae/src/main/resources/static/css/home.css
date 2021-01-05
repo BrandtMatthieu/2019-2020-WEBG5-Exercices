@@ -1,0 +1,8 @@
+main > p {
+	font-family: sans-serif;
+}
+
+main output {
+	display: block;
+	margin: 1em;
+}

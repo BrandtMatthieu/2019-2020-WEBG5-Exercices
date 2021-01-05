@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layouts/base.html}">
+	<head>
+		<link rel="stylesheet" th:href="@{/css/home.css}">
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+		<script defer th:src="@{/js/home.vue.js}"></script>
+	</head>
+	<body>
+		<main layout:fragment="main" id="main">
+			<section>
+				<p>Bienvenue <span th:text="${username}">Inconnu</span> sur le site de gestion du programme annuel des étudiants</p>
+				<select id="select" v-on:change="change">
+					<option selected disabled>Choisissez un crours</option>
+					<option v-for="course in courses" :key="course.id" v-bind:value="course.id">{{course.id}} - {{course.label}}</option>
+				</select>
+				<output v-if="selectedCourse">
+					<li>Sigle : {{ selectedCourse.id }}</li>
+					<li>Intitulé : {{ selectedCourse.label }}</li>
+					<li>Nb de crédits : {{ selectedCourse.ects }}</li>
+				</output>
+			</section>
+		</main>
+	</body>
+</html>
