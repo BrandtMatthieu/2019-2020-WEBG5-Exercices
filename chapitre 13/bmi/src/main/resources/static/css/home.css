@@ -1,0 +1,23 @@
+:root {
+	--error: #ec3636;
+}
+
+main > section > form > fieldset {
+	border: none;
+}
+
+main > section > form > samp {
+	display: block;
+	margin: 1em;
+}
+
+main > section > form > samp > output {
+	font-weight: bold;
+}
+
+main > section > form > samp > output.error.message {
+	background-color: var(--error);
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+}
