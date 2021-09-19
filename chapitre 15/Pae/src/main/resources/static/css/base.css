@@ -1,5 +1,6 @@
 :root {
 	--accent: #1F4B7E;
+	--accent2: #4588d4;
 	--error: #ec3636;
 }
 
@@ -37,6 +38,20 @@ header > h2 {
 	text-transform: uppercase;
 	font-size: 1em;
 	font-family: sans-serif;
+}
+
+nav {
+	background-color: var(--accent2);
+	height: 2.5em;
+	line-height: 2.5em;
+	padding-left: 1em;
+}
+
+nav > a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 1em;
 }
 
 main {
